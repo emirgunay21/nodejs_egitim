@@ -2,9 +2,12 @@
   "name": "ders_uygulamalari",
   "version": "1.0.0",
   "description": "",
+
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js",
+    "dev": "nodemon test.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +15,7 @@
   "dependencies": {
     "express": "^5.1.0",
     "fs": "^0.0.1-security"
+    
   },
   "devDependencies": {
     "@types/node": "^24.9.1"
